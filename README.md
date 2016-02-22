@@ -1,6 +1,3 @@
-# jeux_du_morpion
-jeu du morpion en transposer dans diverses bibliotheques
-
-Le 18/02/2016:
-Premiere connexion dans Github
-Création du projet dans Github
+21/02/2016
+        enieme essais de creation d'un commit
+	avec le fichier source d'origine et le fichier readme
