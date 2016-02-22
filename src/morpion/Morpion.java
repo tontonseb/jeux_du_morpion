@@ -1,4 +1,4 @@
-package morpion;
+package Morpion;
 
 		/**
 		 * Un jeu de morpion sur un plateau 3x3
@@ -11,10 +11,13 @@ package morpion;
 		public class Morpion extends Applet implements 
 		                                        ActionListener {
 
+		//private static final long serialVersionUID = 1L;
 		  Button cases[];     
 		  Button boutonNouvellePartie;
 		  Label score;
 		  int casesLibresRestantes = 9;
+		  int userGagne = 0;
+		  int userPerd = 0; 
 
 		  /** 
 		   * La méthode init est comme un constructeur pour l'applet
@@ -105,8 +108,10 @@ package morpion;
 		    
 		    if (gagnant.equals("X")) {
 			score.setText("Vous avez gagné !");
+			userGagne =+;
 		    } else if (gagnant.equals("O")) {
-		      score.setText("Vous avez perdu !");
+		      score.setText("Vous avez perdu !")
+		      userPerd =+;
 		    } else if (gagnant.equals("T")) {
 		      score.setText("Partie nulle !");
 		    }
